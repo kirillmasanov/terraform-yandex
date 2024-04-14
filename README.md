@@ -13,3 +13,15 @@ provider_installation {
 } 
 EOF
 ```
+
+Описание провайдера Yandex: https://terraform-provider.yandexcloud.net/
+
+Описание работы с Terraform в Yandex Cloud:
+https://yandex.cloud/ru/docs/tutorials/infrastructure-management/terraform-quickstart
+
+Провайдер Yandex Cloud:
+https://github.com/yandex-cloud/terraform-provider-yandex
+
+Документация:
+https://github.com/yandex-cloud/terraform-provider-yandex/tree/master/website/docs
+
