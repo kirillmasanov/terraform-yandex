@@ -25,3 +25,14 @@ https://github.com/yandex-cloud/terraform-provider-yandex
 Документация:
 https://github.com/yandex-cloud/terraform-provider-yandex/tree/master/website/docs
 
+Настройка провайдера для работы с Yandex Cloud:
+OAuth Token – https://yandex.cloud/ru/docs/iam/concepts/authorization/oauth-token
+Cloud ID
+Folder ID
+
+Чтобы не хранить настройки в файле можно задать переменные окружения:
+```
+export YC_TOKEN=$(yc iam create-token); \
+export YC_CLOUD_ID=$(yc config get cloud-id); \
+export YC_FOLDER_ID=$(yc config get folder-id)
+```
