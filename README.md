@@ -37,3 +37,5 @@ export YC_CLOUD_ID=$(yc config get cloud-id); \
 export YC_FOLDER_ID=$(yc config get folder-id)
 ```
 *предварительно выполнить `yc init`
+
+https://github.com/yandex-cloud/yc-architect-solution-library?tab=readme-ov-file has been moved to https://github.com/yandex-cloud-examples/
